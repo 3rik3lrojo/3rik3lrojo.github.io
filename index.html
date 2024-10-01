@@ -79,11 +79,11 @@
             // Tabla de permisos según la combinación de bits C1, C2, C3
             const permissionTable = {
                 '000': { read: 'Llave A o B', write: 'Llave A o B', inc: 'Llave A o B', dec: 'Llave A o B', app: 'Configuración de transporte' },
-                '001': { read: 'Llave A o B', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
-                '010': { read: 'Llave A o B', write: 'Llave B', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
-                '011': { read: 'Llave A o B', write: 'Llave B', inc: 'Llave A o B', dec: 'Llave A o B', app: 'Bloque de valor' },
-                '100': { read: 'Llave B', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de valor' },
-                '101': { read: 'Llave B', write: 'Llave B', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
+                '001': { read: 'Llave A o B', write: 'Nunca', inc: 'Nunca', dec: 'Llave A o B', app: 'Bloque de lectura/escritura' },
+                '010': { read: 'Llave A o B', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
+                '011': { read: 'Llave B', write: 'Llave B', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
+                '100': { read: 'Llave A o B', write: 'Llave B', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
+                '101': { read: 'Llave B', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
                 '110': { read: 'Llave B', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' },
                 '111': { read: 'Nunca', write: 'Nunca', inc: 'Nunca', dec: 'Nunca', app: 'Bloque de lectura/escritura' }
             };
